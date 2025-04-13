@@ -61,7 +61,7 @@
                 <h4>Cari Daftar Kunjungan</h4>
             </div>
 
-            <div >
+            <div style="overflow:auto;">
                 <table class="table">
                     <thead>
                         <tr>

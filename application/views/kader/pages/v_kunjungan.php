@@ -302,7 +302,7 @@
                     <h1>Daftar Antrian </h1>
                 </div>
             </div>
-            <div class="sparkline8-graph">
+            <div class="sparkline8-graph" style="overflow: auto;">
                 <div class="static-table-list">
                     <table class="table">
                         <thead>

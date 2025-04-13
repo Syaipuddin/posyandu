@@ -151,7 +151,7 @@
                                 
                             </div>
                         </div>
-                        <div class="sparkline8-graph">
+                        <div class="sparkline8-graph" style="overflow: auto;">
                             <div class="static-table-list">
                                 <table class="table">
                                     <thead>
@@ -183,7 +183,7 @@
                                 
                             </div>
                         </div>
-                        <div class="sparkline8-graph">
+                        <div class="sparkline8-graph" style="overflow: auto;">
                             <div class="static-table-list">
                                 <table class="table">
                                     <thead>

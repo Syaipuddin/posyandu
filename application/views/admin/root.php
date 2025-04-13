@@ -83,29 +83,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Header top area end-->
-
-            <div class="mobile-menu-area" style="margin-top:30px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="mobile-menu">
-                                <nav id="dropdown">
-                                    <ul class="mobile-menu-nav">
-                                        <li><a data-toggle="collapse" data-target="#Charts" href="#/dashboard">Home <span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
-                                        </li>
-                                        <li><a data-toggle="collapse" data-target="#demo" href="#/user">Mailbox <span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
-                                        </li>
-                                        <li><a data-toggle="collapse" data-target="#others" href="#">Miscellaneous <span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Mobile Menu end -->
             <!-- Breadcome start-->
 
             <!-- welcome Project, sale area start-->

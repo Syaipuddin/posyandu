@@ -401,14 +401,17 @@ ul.message-list-menu li .message-info {
 	text-align: center;
 }
 /* Dark Layout Css */
-.left-sidebar-pro{
-	display:none;
+.left-sidebar-pro{	
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	display: none;
 }
 .wrapper-pro{
 	display:block;
 }
 #sidebarCollapse{
-	display:none;
+	display:block;
 }
 .fixed-header-top{
 	position:relative;
@@ -790,13 +793,16 @@ ul.message-list-menu li .message-info {
 }
 /* Dark Layout Css */
 .left-sidebar-pro{
-	display:none;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	display: none;
 }
 .wrapper-pro{
 	display:block;
 }
 #sidebarCollapse{
-	display:none;
+	display:block;
 }
 .fixed-header-top{
 	position:relative;

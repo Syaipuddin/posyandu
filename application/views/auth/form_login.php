@@ -50,6 +50,21 @@
     <script src="<?= base_url().'assets/js/vendor/modernizr-2.8.3.min.js' ?>  "></script>
 </head>
 
+<style>
+    #form-login-panitia {
+      width: 80%; /* Default full width for mobile */
+      margin: 0 auto; /* Center the div */
+    }
+
+    @media (min-width: 768px) {
+      #form-login-panitia {
+        width: 35vw; /* 35% of viewport width on desktop */
+        min-width: 400px; /* Optional: prevent becoming too narrow */
+        max-width: 600px; /* Optional: prevent becoming too wide */
+      }
+    }
+</style>
+
 <body class="materialdesign">
     <div class="wrapper-pro">
         <div class="login-form-area">
@@ -57,7 +72,7 @@
                 <div class="row" style="display: flex; flex-direction:column; justify-content:center; align-items:center; height: 98vh;">
                   <h1 style="font-weight: bold;">POSYANDU PAMUJI RAHAYU</h1>
                     <form id="form-login-panitia" class="adminpro-form">
-                        <div class="col-12" style="width: 35vw;">
+                        <div class="col-12 login-div">
                             <div class="login-bg" style="width: 100%;">
                                 <div class="row">
                                     <div class="col-lg-6">

@@ -55,7 +55,6 @@ const antrianInterface = (function() {
         let html = '';
         html += `
             <div class="text-center">
-                <img src="${BASE_URL}assets/img/no_activity.svg" alt="no-activity" />
                 <h4> Tidak Ada Jadwal Kegiatan </h4>
             </div>
         `;

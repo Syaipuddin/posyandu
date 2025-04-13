@@ -9,9 +9,16 @@
 
 
 		$('#sidebarCollapse').on('click', function () {
-                     $('#sidebar').toggleClass('active');
+			//  $('#sidebar').toggleClass('active');
+			$('.left-sidebar-pro').css("display", "block");
+		});
 
-                 });
+		$(document).on('click', function (event) {
+			// Check if the click target is not the sidebar or the button
+			if (!$(event.target).closest('.left-sidebar-pro').length && !$(event.target).closest('#sidebarCollapse').length) {
+				$('.left-sidebar-pro').css("display", "none");
+			}
+		});	
 
 		// Collapse ibox function
 			$('#sidebar ul li').on('click', function () {
@@ -22,8 +29,8 @@
 
 
 		$('#sidebarCollapse').on('click', function () {
-			$("body").toggleClass("mini-navbar");
-			SmoothlyMenu();
+			// $("body").toggleClass("mini-navbar");
+			// SmoothlyMenu();
 		});
 
 		/*-----------------------------

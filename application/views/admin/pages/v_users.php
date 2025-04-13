@@ -10,8 +10,8 @@
                         <h1> <span class="fa fa-user"></span> User </h1>
 
                     </div>
-                </div>
-                <div class="sparkline8-graph">
+                </div> 
+                <div class="sparkline8-graph" style="overflow: auto;">
                     <div class="static-table-list">
                         <table class="table">
                             <thead>

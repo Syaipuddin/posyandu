@@ -79,19 +79,29 @@ function load_anak()
                 data.forEach(function(item) {
                     console.log(item.no_kk_anak);
                     html += `
-                        <div class="col-md-6" style="margin-top: 20px; display: flex; justify-content: center;" >
-                            <div class="card" style="width: 32rem; background-color: #9B7EBD; padding: 20px; border-radius:10px; ">
-                                <div class="card-body" style='color:#fff;'>
-                                    <h5 class="card-title">${item.nama_depan} ${item.nama_belakang}  (${item.jenis_kelamin}) </h5>
-                                    <p> ${item.no_kk_anak} </p>
-                                    <a href="#/detailanak/${item.no_kk_anak}" class="btn btn-info" style="background-color: #3B1E54; border-color: #3B1E54;">Detail Anak</a>
-                                    <button class="btn btn-info btn__edit__anak" style="background-color: #3B1E54; border-color: #3B1E54;"
-                                        data-no_kk_anak="${item.no_kk_anak}"
-                                        data-nama_depan="${item.nama_depan}"
-                                        data-nama_belakang="${item.nama_belakang}"
-                                        data-jk="${item.jenis_kelamin}"
-                                        data-tgl_lahir="${item.tgl_lahir}"
-                                    > Edit Anak </button>
+                        <div class="col-12 col-md-6 mb-4" style="margin-top: 20px;">
+                            <div class="card h-100" style="max-width: 100%; background-color: #9B7EBD; border-radius:10px;">
+                                <div class="card-body" style='color:#fff; padding: 1.5rem;'>
+                                    <h5 class="card-title" style="font-size: 1.25rem; margin-bottom: 0.75rem;">
+                                        ${item.nama_depan} ${item.nama_belakang} (${item.jenis_kelamin})
+                                    </h5>
+                                    <p style="margin-bottom: 1rem; word-break: break-all;">${item.no_kk_anak}</p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a href="#/detailanak/${item.no_kk_anak}" 
+                                        class="btn btn-action" 
+                                        style="flex: 1 1 45%; min-width: 120px; color: #fff; background-color: #3B1E54; border-color: #3B1E54;">
+                                            Detail Anak
+                                        </a>
+                                        <button class="btn btn-action btn__edit__anak" 
+                                                style="flex: 1 1 45%; min-width: 120px; background-color: #3B1E54; border-color: #3B1E54;"
+                                                data-no_kk_anak="${item.no_kk_anak}"
+                                                data-nama_depan="${item.nama_depan}"
+                                                data-nama_belakang="${item.nama_belakang}"
+                                                data-jk="${item.jenis_kelamin}"
+                                                data-tgl_lahir="${item.tgl_lahir}">
+                                            Edit Anak
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
