@@ -32,7 +32,7 @@
 </div>
 
 <!-- The Modal -->
-<div class="modal" id="ModalAddAntrian">
+<div class="modal" id="ModalAddAntrian" style="color:black;">
     <div class="modal-dialog modal-dialog-centered modal-fullscreen-md-down">
         <div class="modal-content">
             <div class="modal-header">
@@ -41,8 +41,8 @@
             </div>
             <div class="modal-body">
                 <div class="table-wrapper">
-                    <table class="modal-table">
-                        <thead>
+                    <table class="modal-table" style="color:black;">
+                        <thead  >
                             <tr>
                                 <th>No. KK</th>
                                 <th>NIK Anak</th>

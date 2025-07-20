@@ -62,7 +62,7 @@ class Kunjungan extends CI_Controller{
       'id_kegiatan' => $no_kegiatan,
       'no_antri' => $this->no_antri(),
       'tanggal_kunjungan' => date('Y-m-d'),
-      'status' => 'antri'
+      'status' => 'proses'
     );
 
     $insertAntri = $this->m_core->add_data($this->table, $data_insert);
